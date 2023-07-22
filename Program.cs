@@ -7,7 +7,7 @@ class program
         int op;
         Controle c = new Controle();
         c.Saldo = 100;
-        Console.WriteLine("Escolha a operação\r\n1- Deposito\r\n2- Saque");
+        Console.WriteLine("Escolha a operação\r\n1- Deposito\r\n2- Saque\r\n3- Ver saldo");
         op = Convert.ToInt32(Console.ReadLine());
         Console.Clear();
 
@@ -28,7 +28,11 @@ class program
             Console.Clear();    
             Console.WriteLine("Saldo atual é de " + c.valor2().ToString("C"));
         }
-        Console.ReadKey();
+        else if (op == 3)
+        {
+            Console.WriteLine(c.Saldo.ToString("C"));
+        }
+            Console.ReadKey();
 
 
 
