@@ -33,7 +33,6 @@
 	}
 	public double valor2()
 	{
-		
 		if(saldo>=saque)
 		{
             saldo = saldo - saque;
