@@ -56,7 +56,7 @@ class program
                             break;
                         default:
                             Console.Clear();
-                            Console.WriteLine("Opção Invalida: Digite 1 ou 2");
+                            Console.WriteLine("Opção Invalida!!");
                             Console.ReadKey();
                             
                             break;
@@ -86,7 +86,7 @@ class program
                             break;
                         default:
                             Console.Clear();
-                            Console.WriteLine("Opção Invalida: Digite 1 ou 2");
+                            Console.WriteLine("Opção Invalida!!");
                             Console.ReadKey();
 
                             break;
@@ -111,7 +111,7 @@ class program
                             break;
                         default:
                             Console.Clear();
-                            Console.WriteLine("Opção Invalida: Digite 1 ou 2");
+                            Console.WriteLine("Opção Invalida!!");
                             Console.ReadKey();
 
                             break;
