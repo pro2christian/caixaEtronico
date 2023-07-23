@@ -25,12 +25,13 @@
 		set { this.saque = value; }
 	}
 
-	
+	//deposito
 	public double valor()
 	{
 		saldo = deposito+saldo;
 		return saldo;
 	}
+	//saque
 	public double valor2()
 	{
 		if(saldo>=saque)
@@ -40,17 +41,16 @@
             {
                 return 0;
             }
-            Console.WriteLine("Saque Efetuado com Sucesso, Obrigado!");
+            Console.WriteLine("Saque Efetuado com Sucesso");
+			
 		}
        
         else
         {
-            Console.WriteLine("Saldo insulficiente, Obrigado!");
+            Console.WriteLine("Saldo insulficiente");
         }
-        
-        return saldo;
 
-		
+		return Saldo;		
     }
 
 
