@@ -97,7 +97,7 @@ class program
                     //ver saldo
                     Console.WriteLine("Seu saldo é de "+c.Saldo.ToString("C"));
                     
-                    Console.WriteLine("\r\nDeseja continuar?\r\n1- Sim\r\n2- Não");
+                    Console.WriteLine("Deseja continuar?\r\n1- Sim\r\n2- Não");
                     resp = Convert.ToInt32(Console.ReadLine());
                     switch (resp)
                     {
