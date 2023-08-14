@@ -56,7 +56,7 @@ class program
                             break;
                         default:
                             Console.Clear();
-                            Console.WriteLine("Opção Invalida!!");
+                            Console.WriteLine("Opção Invalida");
                             Console.ReadKey();
                             
                             break;
@@ -86,7 +86,7 @@ class program
                             break;
                         default:
                             Console.Clear();
-                            Console.WriteLine("Opção Invalida!!");
+                            Console.WriteLine("Opção Invalida");
                             Console.ReadKey();
 
                             break;
