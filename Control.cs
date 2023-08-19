@@ -28,7 +28,7 @@ class Controle
 	//deposito
 	public double valor()
 	{
-		saldo = deposito + saldo;
+		saldo += deposito;
 		return saldo;
 	}
 	//saque
