@@ -1,6 +1,6 @@
 ﻿using System;
 
-	class Controle
+class Controle
 {
 	private double saldo;
 
@@ -28,30 +28,29 @@
 	//deposito
 	public double valor()
 	{
-		saldo = deposito+saldo;
+		saldo = deposito + saldo;
 		return saldo;
 	}
 	//saque
 	public double valor2()
 	{
-		if(saldo>=saque)
+		if (saldo >= saque)
 		{
-            saldo = saldo - saque;
-            if (saldo < 0)
-            {
-                return 0;
-            }
-            Console.WriteLine("Saque Efetuado com Sucesso");
-			
+			saldo = saldo - saque;
+			if (saldo < 0)
+			{
+				return 0;
+			}
+			Console.WriteLine("Saque Efetuado com Sucesso");
+
 		}
-       
-        else
-        {
-            Console.WriteLine("Saldo insulficiente");
-        }
 
-		return Saldo;		
-    }
+		else
+		{
+			Console.WriteLine("Saldo insulficiente");
+		}
 
-
+		return Saldo;
+	}
 }
+    
